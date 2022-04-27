@@ -25,6 +25,3 @@ for (let index = 0; index < 4; index++) {
     basic.pause(200)
     led.unplot(x, y + 1)
 }
-basic.forever(function () {
-    basic.showString("" + (input.soundLevel()))
-})
